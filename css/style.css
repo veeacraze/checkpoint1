@@ -80,7 +80,7 @@ h1 {
 a {
   list-style-type: none;
   text-decoration: none;
-  color: black;
+  /*color: color: #70CAC9;*/
 }
 
 a:link {
@@ -138,8 +138,9 @@ h2 {
 .navcontent {
   list-style-type: none;
   text-decoration: none;
-  /*background-color: #70CAC9;*/
-  background-color: transparent;
+  /*background-color: rgba(112, 202, 201, 0.2);*/
+  background-color: rgba(225, 225, 225, 0.3);
+  /*background-color: transparent;*/
   height: auto;
   width: 200px;
   position: fixed;
@@ -162,6 +163,7 @@ h2 {
   font-size: 25px;
   border-bottom-style: solid;
   border-bottom-width: thin;
+  /*border-bottom-color: #70CAC9;*/
   padding-top: 15px;
   padding-left: 15px;
 }

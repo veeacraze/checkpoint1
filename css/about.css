@@ -1,0 +1,162 @@
+.mainbody {
+
+}
+
+.left {
+  float: left;
+  background-color: #FDBD5B;
+  width: 50%;
+  height: 650px;
+  font-family: sans-serif;
+
+
+}
+
+.right {
+  float: right;
+  /*background-color: #3182AA;*/
+  background-color: #3BA5B6;
+  width: 50%;
+  height: 650px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+
+
+}
+
+
+.two {
+    padding: 20%;
+}
+
+
+input[type="text"] {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 18px;
+  border: none;
+  margin-top: 2px;
+}
+
+
+input[type="text"]:nth-child(5) {
+
+  height: 100px;
+
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #98EEF5;
+    border: none;
+    color: #06939A;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 0px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.contact {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
+
+}
+
+h3 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: -1px 1px 5px #AA6D03;
+  color: #FDBD5B;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: -1px 1px 5px #8FCBE7;
+  color: #3BA5B6;
+  padding-bottom: 20px;
+  padding-top: 20%;
+}
+
+.navcontent {
+  width: 30%;
+  display: inline-flex;
+
+}
+
+.navcontent {
+  list-style-type: none;
+  text-decoration: none;
+  /*background-color: #70CAC9;*/
+  background-color: transparent;
+  height: auto;
+  width: 342px;
+  position: fixed;
+  left: 30px;
+  top: 54px;
+  /*padding-left: 15px;*/
+  border-style: solid;
+  border-width: thin;
+  /*border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-width: thin;
+  border-bottom-width: thin;*/
+  border-color: white;
+
+
+}
+
+.navi {
+  padding-bottom: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  /*border-bottom-style: solid;
+  border-bottom-width: thin;*/
+  padding-top: 15px;
+  padding-left: 15px;
+
+  border: none; !important
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white; !important
+}
+
+a:link {
+  color: white;
+}
+a:hover {
+  color: #70CAC9;
+}
+a:visited {
+
+  color: white;
+}
+a:active {
+
+  color: white;
+}
+
+.aboutcontent {
+  background-color: white;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2%;
+  text-indent: 30px;
+}
