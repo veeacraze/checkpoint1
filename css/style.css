@@ -5,6 +5,10 @@ height: 100%;
 padding-top: 1%;
 }
 
+.invisable {
+  opacity: 0;
+}
+
 header {
 
 }
