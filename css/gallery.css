@@ -69,7 +69,17 @@ img {
 a {
   list-style-type: none;
   text-decoration: none;
-  color: white; !important
+  /*color: white; !important*/
+}
+
+.spilacolor:link {
+  color: black;
+}
+.spilacolor:visited {
+  color: black;
+}
+.spilacolor:active {
+  color: black;
 }
 
 a:link {

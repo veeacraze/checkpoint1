@@ -122,6 +122,16 @@ a:active {
   color: black;
 }
 
+.spilacolor:link {
+  color: black;
+}
+.spilacolor:visited {
+  color: black;
+}
+.spilacolor:active {
+  color: black;
+}
+
 
 @media  (max-width: 991px) {
 
