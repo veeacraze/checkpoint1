@@ -63,3 +63,60 @@ h1 {
   align-content: center;
   border-top: 50px;
 }
+
+.navcontent {
+  list-style-type: none;
+  text-decoration: none;
+  /*background-color: #70CAC9;*/
+  background-color: transparent;
+  height: auto;
+  width: 200px;
+  position: fixed;
+  left: 30px;
+  top: 151px;
+  /*padding-left: 15px;*/
+  border-style: solid;
+  border-width: thin;
+  /*border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-width: thin;
+  border-bottom-width: thin;*/
+  border-color: black;
+}
+
+.navi {
+  padding-bottom: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+
+.navi:nth-child(3) {
+  border-bottom: none;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+a:hover {
+  color: #70CAC9;
+}
+a:visited {
+
+  color: black;
+}
+a:active {
+
+  color: black;
+}

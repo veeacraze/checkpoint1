@@ -1,0 +1,25 @@
+img {
+  width: auto;
+  height: 300px;
+  padding-bottom: 25px;
+}
+
+/*img:hover {
+  width: auto;
+  height: 500px;
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 10%;
+
+}*/
+
+.gallery {
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  margin-top: 35px;
+
+}
