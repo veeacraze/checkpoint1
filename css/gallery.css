@@ -95,3 +95,76 @@ a:active {
   padding: 2%;
   text-indent: 30px;
 }
+
+
+@media  (max-width: 991px) {
+
+
+  .navi {
+    padding-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 130%;
+    /*border-bottom-style: solid;
+    border-bottom-width: thin;*/
+    padding-top: 15px;
+    padding-left: 18px;
+    text-shadow: -1px 1px 5px black;
+    letter-spacing: 1px;
+    border: none; !important
+  }
+
+.navcontent {
+  width: auto;
+  border: none;
+  /*left: 100px;
+  top: 120px;*/
+
+ }
+
+ .navcontent {
+   list-style-type: none;
+   text-decoration: none;
+   /*background-color: #70CAC9;*/
+   background-color: transparent;
+   height: auto;
+   /*width: 342px;*/
+   /*display: flex;
+   justify-content: flex-end;*/
+   position: fixed;
+   left: 30px;
+   top: 0px;
+   /*left: 30px;
+   top: 54px;*/
+   /*padding-left: 15px;*/
+   /*border-style: solid;
+   border-width: thin;*/
+   /*border-top-style: solid;
+   border-bottom-style: solid;
+   border-top-width: thin;
+   border-bottom-width: thin;*/
+   /*border-color: white;*/
+ }
+
+ .spilalogo {
+   background-color: black;
+   display: flex;
+   justify-content:center;; !important
+   border-top: 50px;
+   width: auto; !important
+
+ }
+
+ .logo {
+   width: 35px;
+   height: 35px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+
+ }
+
+ li:nth-child(3) {
+   padding-right: 2%;
+ }
+
+ }

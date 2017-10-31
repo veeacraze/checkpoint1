@@ -172,3 +172,17 @@ h2 {
 .navi:nth-child(3) {
   border-bottom: none;
 }
+
+
+@media  (max-width: 991px) {
+
+ .logo {
+   width: 35px;
+   height: 35px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+
+ }
+
+
+ }

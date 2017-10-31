@@ -121,3 +121,54 @@ a:active {
 
   color: black;
 }
+
+
+@media  (max-width: 991px) {
+
+
+  .navi {
+    padding-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 130%;
+    padding-top: 15px;
+    padding-left: 18px;
+    text-shadow: -1px 1px 5px black;
+    letter-spacing: 1px;
+    border: none; !important
+  }
+
+.navcontent {
+  width: auto;
+  border: none;
+
+
+ }
+
+ .navcontent {
+   list-style-type: none;
+   text-decoration: none;
+
+   background-color: transparent;
+   height: auto;
+
+   position: fixed;
+   left: 30px;
+   top: 0px;
+
+ }
+
+
+ .logo {
+   width: 35px;
+   height: 35px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+
+ }
+
+ li:nth-child(3) {
+   padding-right: 2%;
+ }
+
+ }
